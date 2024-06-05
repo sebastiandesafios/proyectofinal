@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap" rel="stylesheet">
+    <title>1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #e1e3db;
+            color: #000000;
+            font-family: "Gideon Roman", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .footer {
+            background-color: #1d1d1d;
+            color: #fff;
+            padding: 90px 0;
+        }
+
+        .footer nav a {
+            display: block;
+            margin: 5px 0;
+            color: #ffee00;
+            text-decoration: none;
+        }
+
+        .footer nav a:hover {
+            text-decoration: underline;
+        }
+
+        .footer .social-icons a {
+            margin: 0 10px;
+            color: #c42d2d;
+            text-decoration: none;
+            font-size: 30px;
+        }
+
+        h5 {
+            padding-bottom: 20px;
+            font-size: 30px;
+        }
+        .container{
+            padding: 30px;
+        }
+        .logo {
+            height: 100%;
+            width: 140px;
+        }
+
+        h1 {
+            font-size: 20px;
+        }
+
+        h6 {
+            font-size: 30px;
+            text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+        }
+
+        p {
+            text-align: center;
+            padding: 20px;
+        }
+.container2 {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .formulario {
+    width: 100%;
+    max-width: 300px;
+    background-color: #effd50;
+    border: 2px solid black; 
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.formulario label, .formulario input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.formulario input {
+    padding: 8px;
+}
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  #message {
+    margin-top: 20px;
+    color: green;
+  }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/images/logo.png" alt="Logo" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item"></li>
+                    <a class="nav-link" href="login.html">Inicio de sesion</a>
+                    </li>
+                    <li class="nav-item"></li>
+                    <a class="nav-link" href="index.html">Registrarse</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+  <div class="container2">
+    <h2>Iniciar Sesión</h2>
+    <form id="loginForm">
+      <label for="email" class="form-label">Correo electrónico:</label>
+      <input type="email" class="form-control" id="email" name="email" required>
+      
+      <label for="password" class="form-label">Contraseña:</label>
+      <input type="password" class="form-control" id="password" name="password" required>
+      
+      <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+    </form>
+  </div>
+  <footer class="footer text-center">
+    <div class="container">
+              <p>© 2024 Anthony Bourdain. Todos los derechos reservados.</p>
+            <nav>
+                <a href="https://explorepartsunknown.com" class="d-block">ANTHONY BOURDAIN</a>
+            </nav>
+            <p>Sígueme en mis redes sociales</p>
+            <div class="d-flex justify-content-center social-icons">
+                <a href="https://www.instagram.com/anthonybourdain" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/anthonybourdain" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/bourdain" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="./assets/scripts/login.js"></script>
+</body>
+</html>
